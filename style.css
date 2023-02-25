@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
+.letraTreino{
+    font-size: 310px;
+    color: #0066ff52;
+    margin: 0px;
+    z-index: -1;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+
+.subtituloTreino{
+    margin: 260px 5% 5% 5%;
+}
+
+.divTituloTreino{
+    padding: 5%;
+}
+
+.flex{
+    display: flex;
+}
+
+.grupoMuscular{
+    font-size: 20px;
+    margin: 12px 0px 0px 0px;
+}
+
+.listaTreinos{
+    background-color: #fff;
+    height: 150px;
+    margin: 0px 5% 5% 5%;
+    width: auto;
+    border-radius: 13px;
+}
+
+.imagemDescanso{
+    height: 200px;
+    width: 200px;
+}
+
+.divImagemDescanso{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0px 30px 0px;
+}
+
+.textDescansa{
+    text-align: center;
+    font-size: 20px;
+
+}
+
+.sectionTreinos, .sectionCardio{
+    box-shadow: 2px 4px 12px rgb(0 0 0 / 15%);
+    max-width: 90%;
+    background-color: #fff;
+    margin: 0px 5% 5% 5%;
+    border-radius: 13px;
+    padding-bottom: 8px;
+}
+
+.disable{
+    display: none;
+}
+
+.imagemTreino {
+    width: 120px;
+    height: 130px;
+    border-radius: 10px;
+}
+
+.divImagemTreino{
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 12px;
+}
+
+.repeticoesTexto{
+    color: #0000008f;
+    font-size: 14px;
+    margin: 0px;
+}
+
+.repeticoes{
+    color: #000000b7;
+    font-size: 18px;
+    font: bold;
+    padding-left: 5px;
+    margin: 0px;
+}
+
+.infosExercicio{
+    background-color: #00000023;
+    border-radius: 10px;
+    width: 155px;
+}
+
+.divRepeticoes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35px;
+    margin: 5px 0px 10px 0px
+}
+
+.iconPeso{
+    height: 30px;
+    color: #00000069;
+    margin-left: 5px;
+    margin-bottom: 8px;
+}
+
+.ultimoPeso{
+    font-size: 25px;
+    margin: 0px;
+}
+
+.divPeso{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+
+.nomeExercicio{
+    margin: 8px 0px 0px 0px;
+    display: inline-block;
+    white-space: nowrap;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+}
